@@ -1,0 +1,57 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #111827;
+  color: #f9fafb;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.8rem;
+}
+
+main {
+  display: grid;
+  gap: 1.5rem;
+}
+
+section {
+  background: #020617;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #1f2937;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 0.35rem 0;
+  border-bottom: 1px solid #1f2937;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.note-title {
+  font-weight: 600;
+}
+
+.note-content {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
